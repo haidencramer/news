@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     "accounts",
     "pages",
+    "articles",
 ]
+
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -109,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "MST"
 
 USE_I18N = True
 
